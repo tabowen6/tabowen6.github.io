@@ -99,7 +99,7 @@ margin: 0px 450px 30px 450px;
 }
 
 .topRow{
-background-image:url("../staticLayout/assets/purple-bg.png");
+background-image:url("./assets/purple-bg.png");
 background-size: 100%;
 }
 .topRow img{
@@ -135,7 +135,7 @@ margin: 40px 200px 30px 200px;
 }
 
 .bottomRow{
-background-image:url("../staticLayout/assets/blue-bg.png");
+background-image:url("./assets/blue-bg.png");
 background-size: 100%;
 }
 
