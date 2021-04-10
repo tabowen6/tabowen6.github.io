@@ -18,19 +18,21 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 }
-.test{
-    padding: 2px;
-    
-}
+
 #logo{
 display: inline;
 height: 45px;
 width: auto;
 padding: 0px 0px 0px 20px;
 margin: 18px 0px 0px;
+transition: transform .2s;
+}
+#logo:hover{
+    transform: scale(1.1);
 }
 
 nav{
+position: fixed;
 display: flex;
 justify-content: space-between;
 width: 100%;
@@ -105,7 +107,7 @@ background-size: 100%;
 .topRow img{
 width: 43%;
 height: auto;
-margin: 69px auto 20px auto;
+margin: 145px auto 20px auto;
 display: block;
 }
 
@@ -120,7 +122,11 @@ text-decoration: none;
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 0px auto 500px;
+margin: 0px auto 50px;
+transition: transform .2s;
+}
+.button:hover{
+    transform: scale(1.02);
 }
 
 .middleRow{
